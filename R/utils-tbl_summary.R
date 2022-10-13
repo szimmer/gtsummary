@@ -909,7 +909,7 @@ adding_formatting_as_attr <- function(df_stats, data, variable, summary_type,
     "N_obs_unweighted", "N_miss_unweighted", "N_nonmiss_unweighted",
     "p_miss_unweighted", "p_nonmiss_unweighted"
   )
-  percent_stats <- c("p_miss", "p_nonmiss", "p_miss_unweighted", "p_nonmiss_unweighted")
+  percent_stats <- c("p_miss", "p_nonmiss", "p_miss_unweighted", "p_nonmiss_unweighted", "p.std.error")
 
   # converting the digits input to a list
   if (is.numeric(digits[[variable]])) {
